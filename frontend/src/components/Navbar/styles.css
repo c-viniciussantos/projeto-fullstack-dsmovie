@@ -1,0 +1,56 @@
+:root {
+    --bg-gray: #e8e8e8;
+    --text-gray: #4A4A4A;
+    --color-primary: #4D41C0;
+    --white: #ffffff;
+    --text-light-gray: #aaa;
+    --star-yellow: #FFBB3A;
+
+}
+
+/* box-sizing é para que a borda do elemento não ocupe todos os espaços*/
+/* foi necessário colocar um margin para alinhar o texto, mas o bootstrap sobreescreve esse */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* para o bootstrap entender que está sobreescrevendo algo, deve ser especifico na tag */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+html, body {
+    background-color: var(--bg-gray);
+}
+
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+}
+
+.dsmovie-nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.dsmovie-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
