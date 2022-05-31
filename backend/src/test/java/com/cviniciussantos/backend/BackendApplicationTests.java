@@ -1,10 +1,10 @@
-package com.cviniciussantos.projetofullstackdsmovie;
+package com.cviniciussantos.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProjetoFullstackDsmovieApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {
